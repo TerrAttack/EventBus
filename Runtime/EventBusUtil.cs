@@ -36,7 +36,7 @@ namespace Utils.EventBus
             for (var i = 0; i < EventBusTypes.Count; i++)
             {
                 var busType = EventBusTypes[i];
-                var clearMethod = busType.GetMethod("Clear", BindingFlags.Static | BindingFlags.NonPublic);
+                var clearMethod = busType.GetMethod("Clear", BindingFlags.Static | BindingFlags.Public);
                 clearMethod.Invoke(null, null);
             }
         }
