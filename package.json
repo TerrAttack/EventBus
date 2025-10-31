@@ -1,0 +1,9 @@
+{
+  "name": "com.leon.eventbus",
+  "author": {
+    "name": "Leon McCall"
+  },
+  "version": "1.0.0",
+  "displayName": "Event Bus",
+  "description": "An eventbus for unity\nBased on an eventbus by https://www.youtube.com/@git-amend"
+}
